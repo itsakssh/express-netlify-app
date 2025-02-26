@@ -1,9 +1,10 @@
 {
   "name": "netlify",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "netlify/functions/server.js",
   "scripts": {
-    "start": "node --watch index.js"
+    "dev": "netlify dev",
+    "build": "netlify build"
   },
   "keywords": [],
   "author": "",
